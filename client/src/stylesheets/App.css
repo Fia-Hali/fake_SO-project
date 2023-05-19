@@ -1,0 +1,446 @@
+/* Add your CSS here */
+
+.header{
+    background-color: khaki;
+    overflow: auto;
+    width: 100%;
+    position: relative;
+    height: 100px;
+    margin: 0;
+    size: 100%;
+}
+.block{
+  display:inline-flex;
+  text-align:center;
+  font-size: 20px;
+}
+.block button{
+  font-size: 20px;
+  border-radius: 5px;
+  background-color: hsl(192, 100%, 89%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 5px;
+}
+.block button:hover{
+  background-color: hsl(192, 100%, 50%);
+}
+.left{
+  margin-left: 35px;
+}
+.header a{
+    color: #000;
+    display:inline-flex;
+    text-align:center;
+    text-decoration: solid;
+    font-size: 30px;
+    padding: 1% 25% 1%;
+}
+
+/* what is this for? */
+@media screen and (max-width: 1000px) {
+    .header a{
+        color: #000;
+        display:inline-flex;
+        text-align:center;
+        text-decoration: solid;
+        font-size: 50px;
+        
+    }
+    .header input[type = text]{
+        float:none;
+        margin: 5% 32%;
+        padding: 20%, 25%, 20%;
+        border: navy;
+        font-size: 40px;
+    }
+    
+}
+
+.header a:hover{
+    background-color:rgb(239, 226, 105);
+    color: black;
+}
+
+/* search bar */
+.search-bar{
+    position:absolute;
+    right: 50px;
+    top:15px;
+    font-size: large;
+}
+
+/* menu bar */
+.sidebar {
+    width:10px;
+    background-color: white;
+    position: fixed;
+    top:100px;
+    /* overflow: auto; */
+}
+
+.sidebar a{
+    color: #000;
+    flex-flow: column;
+    text-align:center; 
+    border-right:rgb(239, 226, 105);
+}
+
+.flex-right{
+    float: right;
+}
+
+/* what is this? -> make everything cline to the screen without margin*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, 
+strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+}
+.hover-khaki:hover{color:#000!important;background-color:rgb(239, 226, 105)!important}
+.khaki{background-color:rgb(239, 226, 105);}
+.card{height: 90%;width: 180px; box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)}
+.hover-shadow:hover{box-shadow:0 6px 10px 0 rgb(239, 226, 105), 0 4px 20px 0 rgba(0,0,0,0.12) }
+.bar-block, .bar-item{ 
+    font-size: large; display: inline-block;
+    height: 10%; width: 100%; display:block;text-align:center;border:rgb(239, 226, 105);white-space:normal; outline:0}
+
+input, label, button{
+    font-size: large;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0, 0, 0;
+    background-color: white;
+}
+.rednote
+td button{
+  font-size: large;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0, 0, 0;
+    background-color: rgb(255, 250, 203);
+}
+.homepage{
+  margin-left: 250px;
+}
+
+.home-page-bar{
+    background-color: white;
+    width: 85%;
+    padding: 50px 30px 20px 20px ;
+    flex-wrap: wrap; 
+}
+
+.question-main-title{
+    font-size: xx-large;
+ 
+}
+.bar-block-bar-item{
+    font-size: x-large; width: max-content; display: flex; background-color: #23b7e5;
+}
+ 
+.ask-question{width: 120px; height: 30px; float: right; text-align: center; color: white; background: #23b7e5; font-size: 15px; border-color: #23b7e5; border-radius:2px; padding: 0px; }
+.ans_post{width: 125px; height: 30px; margin-left: 50px; float: inline-start; text-align: center; color: white; background: #23b7e5; font-size: 15px; border-color: #23b7e5; border-radius:2px; padding: 0px; }
+.ans_standard{font-size: xx-large; height: 100px;}
+.tab{
+    overflow: hidden;
+    display:flex; 
+    background-color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  } 
+
+/* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none ;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 16px;
+    transition: 1s;
+    font-size: 17px;
+    margin: 0;
+  } 
+
+  .tab button:hover {
+    background-color:  khaki;
+  }
+  
+  .tab button ::after{
+    background-color:  rgb(239, 226, 105);
+  }
+  .tabcontent {
+    display: none;
+    padding: 20px 180px;
+    border: none;
+    border-top: none;
+    overflow-y: scroll;
+    background-color: grey;
+  } */
+
+  /* .answer_page{
+    position:relative;
+    left:0px;
+    width: 100%;
+  } */
+
+  /* Questions relate*/
+  #numq{
+    font-size: x-large;
+  }
+  .m-questions{
+    position: relative;
+    display:block;
+  }
+
+  .question-main{
+    position:relative;
+    /* background-color: #23b7e5; */
+    width: 80%;
+    left:200px;
+    margin-top: 70px;
+    overflow: hidden;
+    align-items: center;
+  }
+
+  .q-title{
+    font-size: xx-large;
+
+  }
+
+  .q-tdtitle{
+    width: 60%;
+  }
+  .q-explain{
+    font-size: x-large;
+  }
+
+  p:hover{
+    color: #23b7e5;
+  }
+
+  .question-blocks{
+    text-align: center;
+    margin: 0;
+    width: 25%;
+  }
+
+  .td3{
+    width: 60%;
+  }
+
+  .td4{
+    width: 30%
+  }
+
+  /* .backcolor{
+    background-color: aqua;
+  } */
+  .table{
+    outline-style: dotted;
+    position:relative;
+    height: auto;   
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* tags */
+  #numT{
+    font-size: xx-large;
+  }
+  #tag_page_title{
+    font-size: xx-large; align-self:center; margin-left: 50px;
+  }
+  .tagtable{
+    /* background-color: rgb(142, 53, 53); */
+    flex-wrap: wrap; 
+    display: block;;
+    position: relative;
+    width:70%;
+    left:70px;
+  }
+  .card_tag{
+    float: inline-end;
+    position:relative;
+    display: flex;
+    height:100px;
+    width:70%;
+    padding:30px;
+    /* background-color: rgb(209, 164, 164); */
+    text-align: center;
+    /* background-color: bisque; */
+  }
+  
+  .tag_item{
+    height:100px;
+    width:130px;
+    position:relative;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    background-color: #ccc;
+    border-radius: 5px;
+    outline-style:dotted;
+
+  }
+  .tag_page{
+    padding: 20px 50px 20px 100px;
+    margin-left: 200px;
+  }
+  .tag_block{
+    position:relative;
+    text-align: center;
+    height: max-content;
+    margin: 40px;
+  }
+  .left-lable{
+    padding: 15% 15% 15% 5%;
+    display:block;
+    text-align: center;
+    font-size: large;
+    color: rgb(133, 128, 128);
+    width: 25%; /* ? */
+  }
+
+  .question-title{
+    color:rgb(93, 93, 169);
+    font-size: x-large;
+    padding-top: 3% ;
+  }
+  p:hover{
+    color: #23b7e5;
+  }
+
+  td button:hover {
+   color: orange;
+   font-size: medium;
+  }
+
+  .ans_content{
+    background-color: blanchedalmond;
+    margin-left: 100px;
+  }
+
+  #numA{
+    font-size: x-large;
+  }
+  #numV{
+    font-size: x-large;
+  }
+  #top_title{
+    font-size: x-large; margin-left: 50px; height: 100px; text-decoration-style: solid;
+  }
+  #author{
+    font-size: medium; margin-left: 20px
+  }
+
+  #q-info{
+    font-size: large; margin-left: 20px
+  }
+
+  .ansb{
+    background-color: aquamarine;
+    border-style: dotted;
+  }
+  .anstexts{
+    font-size: large;
+    margin:10;
+    height: 10px;
+  }
+  
+  .question_post_time{
+    display:block;
+    text-align: center;
+    font-size: large;
+  }
+
+  .tag_btn{
+    margin: 5px;
+  }
+
+  .red{
+    /* text-decoration-color: rgb(185, 64, 64); */
+    color:rgb(231, 56, 56);
+    font-size: large;
+   }
+
+  .brightRed{
+    color: red;
+    font-size: xx-large;
+  }
+   
+  .blue{
+    color: rgb(43, 147, 250);
+  }
+  .textblue{
+    color: blue;
+  }
+  .smalltextbox{
+    width:400px;
+    height:30px;
+  }
+  .largetextbox{
+    width:400px;
+    height:250px;
+  }
+  .newAnsPage{
+    position:relative;
+    left:200px;
+    top:10px;
+  }
+  .newAnswer{
+    font-size: xx-large; 
+    /* height: 100px; */
+  }
+  .rednote{
+    position:relative;
+    left:50px;
+    font-size: medium;
+    color: brown;
+  }
+
+  .welcome-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .welcome-page h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .button-list button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(192, 100%, 89%);
+    color: black;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-list button:hover {
+    background-color: #3ddbff;
+  }
+
+  .blue{
+    background-color: #3ddbff;
+  }
+  
